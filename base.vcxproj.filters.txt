@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Personagem.cpp">
+      <Filter>Personagem</Filter>
+    </ClCompile>
+    <ClCompile Include="Guerreiro.cpp">
+      <Filter>Personagem</Filter>
+    </ClCompile>
+    <ClCompile Include="Inimigo.cpp">
+      <Filter>Inimigos</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Inimigos</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Consumivel.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipamento.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventario.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalha.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controle.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FormaVivaView.cpp">
+      <Filter>Visão</Filter>
+    </ClCompile>
+    <ClCompile Include="PerMonView.cpp">
+      <Filter>Visão</Filter>
+    </ClCompile>
+    <ClCompile Include="GuerreiroView.cpp">
+      <Filter>Visão</Filter>
+    </ClCompile>
+    <ClCompile Include="BatalhaView.cpp">
+      <Filter>Visão</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela.cpp">
+      <Filter>Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaGrupo.cpp">
+      <Filter>Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaInicial.cpp">
+      <Filter>Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="TelaMapa.cpp">
+      <Filter>Telas</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Tela.cpp">
+      <Filter>Telas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Personagem.h">
+      <Filter>Personagem</Filter>
+    </ClInclude>
+    <ClInclude Include="Guerreiro.h">
+      <Filter>Personagem</Filter>
+    </ClInclude>
+    <ClInclude Include="Inimigo.h">
+      <Filter>Inimigos</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Inimigos</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumivel.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipamento.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventario.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Batalha.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Formaviva.h">
+      <Filter>Personagem</Filter>
+    </ClInclude>
+    <ClInclude Include="Controle.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PerMonView.h">
+      <Filter>Visão</Filter>
+    </ClInclude>
+    <ClInclude Include="GuerreiroView.h">
+      <Filter>Visão</Filter>
+    </ClInclude>
+    <ClInclude Include="BatalhaView.h">
+      <Filter>Visão</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela.h">
+      <Filter>Telas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaGrupo.h">
+      <Filter>Telas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaInicial.h">
+      <Filter>Telas</Filter>
+    </ClInclude>
+    <ClInclude Include="TelaMapa.h">
+      <Filter>Telas</Filter>
+    </ClInclude>
+    <ClInclude Include="I_Tela.h">
+      <Filter>Telas</Filter>
+    </ClInclude>
+    <ClInclude Include="I_FormaVivaView.h">
+      <Filter>Visão</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Personagem">
+      <UniqueIdentifier>{b92e85df-e5de-4a5c-9e1f-930ae73203b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inimigos">
+      <UniqueIdentifier>{0d6de68b-5e8a-43f1-9cc2-517faab7ba4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{a53ccaf8-aa91-4dd0-babe-547906b92017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{ef350142-70d7-4846-a855-e52b480cb12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visão">
+      <UniqueIdentifier>{bd20f46a-f4c3-49f2-b663-625ca87a80c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Telas">
+      <UniqueIdentifier>{d399a4e6-9ae1-4f13-bbad-e01ef63ce526}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
